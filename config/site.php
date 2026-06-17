@@ -15,4 +15,11 @@ return [
 
     'home_only' => env('SITE_HOME_ONLY', true),
 
+    'social' => [
+        'linkedin' => env('SOCIAL_LINKEDIN', '#'),
+        'facebook' => env('SOCIAL_FACEBOOK', '#'),
+        'x' => env('SOCIAL_X', '#'),
+        'instagram' => env('SOCIAL_INSTAGRAM', '#'),
+    ],
+
 ];

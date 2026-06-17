@@ -159,6 +159,14 @@
     .btn-footer {
         @apply inline-flex items-center justify-center gap-2 rounded-xl border border-logo-blue/35 bg-logo-blue/10 px-5 py-2.5 text-sm font-semibold text-logo-blue transition-all duration-300 hover:-translate-y-0.5 hover:border-logo-blue/60 hover:bg-logo-blue/20;
     }
+
+    .footer-social {
+        @apply inline-flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-white/70 transition-all duration-200 hover:-translate-y-0.5 hover:border-logo-blue/40 hover:bg-logo-blue/10 hover:text-white;
+    }
+
+    .footer-social svg {
+        @apply h-[18px] w-[18px];
+    }
 }
 
 /* Sticky header */
