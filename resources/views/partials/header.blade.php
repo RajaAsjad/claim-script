@@ -12,14 +12,14 @@
 <header class="site-header fixed top-0 z-50 w-full py-4">
     <div class="container-site">
         <div class="flex items-center justify-between gap-4">
-            <a href="{{ route('home') }}" class="relative z-10 flex shrink-0 items-center" aria-label="ClaimScript LLC Home">
+            <a href="{{ site_page_url('home') }}" class="relative z-10 flex shrink-0 items-center" aria-label="ClaimScript LLC Home">
                 <img src="{{ asset('images/logo/logo-header-dark.png') }}" alt="ClaimScript LLC" class="logo-dark h-9 w-auto md:h-10">
                 <img src="{{ asset('images/logo/logo-header-light.png') }}" alt="ClaimScript LLC" class="logo-light hidden h-9 w-auto md:h-10">
             </a>
 
             <nav class="hidden items-center gap-8 lg:flex" aria-label="Main navigation">
                 @foreach ($navItems as $item)
-                    <a href="{{ route($item['route']) }}"
+                    <a href="{{ site_page_url($item['route']) }}"
                        class="nav-link {{ request()->routeIs($item['route']) ? 'is-active' : '' }}">
                         {{ $item['label'] }}
                     </a>
@@ -27,7 +27,7 @@
             </nav>
 
             <div class="flex items-center gap-3">
-                <a href="{{ route('contact') }}" class="btn-primary hidden sm:inline-flex">
+                <a href="{{ site_page_url('contact') }}" class="btn-primary hidden sm:inline-flex">
                     Schedule a Consultation
                 </a>
 
@@ -57,7 +57,7 @@
         </div>
         <nav class="flex flex-1 flex-col gap-1 p-5" aria-label="Mobile navigation">
             @foreach ($navItems as $item)
-                <a href="{{ route($item['route']) }}"
+                <a href="{{ site_page_url($item['route']) }}"
                    data-mobile-link
                    class="rounded-xl px-4 py-3 text-base font-medium {{ request()->routeIs($item['route']) ? 'bg-off-white text-navy' : 'text-charcoal hover:bg-off-white' }}">
                     {{ $item['label'] }}
@@ -65,7 +65,7 @@
             @endforeach
         </nav>
         <div class="border-t border-soft-gray p-5">
-            <a href="{{ route('contact') }}" data-mobile-link class="btn-primary w-full">Schedule a Consultation</a>
+            <a href="{{ site_page_url('contact') }}" data-mobile-link class="btn-primary w-full">Schedule a Consultation</a>
         </div>
     </div>
 </div>

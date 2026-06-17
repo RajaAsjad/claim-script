@@ -90,7 +90,7 @@
                 <p class="mx-auto mt-3 max-w-xl text-sm text-white/70 md:text-base">
                     Schedule a consultation and we'll review your practice workflow, current challenges, and recommend the right level of support.
                 </p>
-                <a href="{{ route('contact') }}" class="btn-primary mt-6 inline-flex">Schedule a Consultation</a>
+                <a href="{{ site_page_url('contact') }}" class="btn-primary mt-6 inline-flex">Schedule a Consultation</a>
             </div>
         </div>
     </section>

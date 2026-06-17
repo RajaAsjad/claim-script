@@ -13,8 +13,8 @@
                     Schedule a consultation to discuss your practice, workflow, and how ClaimScript can support your billing operations with transparency and structure.
                 </p>
                 <div class="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-                    <a href="{{ route('contact') }}" class="btn-primary">Schedule a Consultation</a>
-                    <a href="{{ route('process') }}" class="btn-secondary">View Our Process</a>
+                    <a href="{{ site_page_url('contact') }}" class="btn-primary">Schedule a Consultation</a>
+                    <a href="{{ site_page_url('process') }}" class="btn-secondary">View Our Process</a>
                 </div>
             </div>
         </div>

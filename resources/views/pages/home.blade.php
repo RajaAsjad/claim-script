@@ -21,8 +21,8 @@
                         ClaimScript helps outpatient practices manage the entire revenue cycle from accurate claim submission to proactive denial resolution with full transparency and structured reporting.
                     </p>
                     <div class="mt-8 flex flex-col gap-4 sm:flex-row">
-                        <a href="{{ route('contact') }}" class="btn-primary">Schedule a Consultation</a>
-                        <a href="{{ route('services') }}" class="btn-secondary">Explore Services</a>
+                        <a href="{{ site_page_url('contact') }}" class="btn-primary">Schedule a Consultation</a>
+                        <a href="{{ site_page_url('services') }}" class="btn-secondary">Explore Services</a>
                     </div>
                 </div>
 
@@ -105,7 +105,7 @@
                     <p class="section-subtitle">
                         From eligibility verification to final payment posting, every step follows a defined process designed for accuracy, accountability, and transparency.
                     </p>
-                    <a href="{{ route('process') }}" class="btn-outline mt-8 inline-flex">View Full Process</a>
+                    <a href="{{ site_page_url('process') }}" class="btn-outline mt-8 inline-flex">View Full Process</a>
                 </div>
 
                 <div class="reveal stagger-2 space-y-4">
@@ -158,7 +158,7 @@
             </div>
 
             <div class="reveal mt-10 text-center">
-                <a href="{{ route('services') }}" class="btn-outline">View All Services</a>
+                <a href="{{ site_page_url('services') }}" class="btn-outline">View All Services</a>
             </div>
         </div>
     </section>
@@ -310,7 +310,7 @@
             </div>
 
             <div class="reveal mt-8 text-center">
-                <a href="{{ route('faq') }}" class="btn-outline">View All FAQs</a>
+                <a href="{{ site_page_url('faq') }}" class="btn-outline">View All FAQs</a>
             </div>
         </div>
     </section>
