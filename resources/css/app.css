@@ -11,6 +11,7 @@
 
     --color-navy: #0E1A31;
     --color-navy-light: #152440;
+    --color-navy-deep: #0A1328;
     --color-logo-blue: #5FA8FF;
     --color-logo-blue-dark: #6D9EEB;
     --color-off-white: #F5F7FA;
@@ -116,6 +117,48 @@
     .stagger-4 { transition-delay: 0.32s; }
     .stagger-5 { transition-delay: 0.4s; }
     .stagger-6 { transition-delay: 0.48s; }
+
+    .cta-section {
+        @apply border-t border-soft-gray/80 bg-white;
+    }
+
+    .cta-panel {
+        @apply relative overflow-hidden rounded-3xl border border-logo-blue/15 bg-gradient-to-br from-navy via-navy-light to-navy px-6 py-10 shadow-2xl shadow-navy/15 md:px-12 md:py-14;
+    }
+
+    .cta-panel-glow {
+        @apply pointer-events-none absolute -right-16 -top-16 h-56 w-56 rounded-full bg-logo-blue/20 blur-3xl;
+    }
+
+    .cta-panel-grid {
+        @apply pointer-events-none absolute inset-0 opacity-[0.04];
+        background-image:
+            linear-gradient(rgba(255, 255, 255, 0.8) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(255, 255, 255, 0.8) 1px, transparent 1px);
+        background-size: 32px 32px;
+    }
+
+    .site-footer {
+        @apply relative border-t border-logo-blue/20 bg-navy-deep text-white;
+    }
+
+    .site-footer::before {
+        content: '';
+        @apply absolute inset-x-0 top-0 block h-px;
+        background: linear-gradient(90deg, transparent, rgba(95, 168, 255, 0.55), transparent);
+    }
+
+    .footer-heading {
+        @apply mb-5 text-xs font-semibold uppercase tracking-[0.2em] text-logo-blue;
+    }
+
+    .footer-link {
+        @apply text-sm text-white/70 transition-colors duration-200 hover:text-white;
+    }
+
+    .btn-footer {
+        @apply inline-flex items-center justify-center gap-2 rounded-xl border border-logo-blue/35 bg-logo-blue/10 px-5 py-2.5 text-sm font-semibold text-logo-blue transition-all duration-300 hover:-translate-y-0.5 hover:border-logo-blue/60 hover:bg-logo-blue/20;
+    }
 }
 
 /* Sticky header */
@@ -206,16 +249,6 @@
     pointer-events: none;
 }
 
-/* Global cursor canvas */
-.cursor-canvas {
-    position: fixed;
-    inset: 0;
-    z-index: 45;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-}
-
 /* Dashboard mockup */
 .dashboard-bar {
     animation: barGrow 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
@@ -234,14 +267,9 @@
     .btn-primary,
     .btn-secondary,
     .btn-outline,
-    .dashboard-bar,
-    .cursor-canvas {
+    .dashboard-bar {
         animation: none !important;
         transition: none !important;
-    }
-
-    .cursor-canvas {
-        display: none;
     }
 
     .reveal {

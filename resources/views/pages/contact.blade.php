@@ -58,10 +58,6 @@
                                     <span class="font-medium text-charcoal">Email</span><br>
                                     <a href="mailto:info@claimscript.com" class="text-logo-blue-dark hover:underline">info@claimscript.com</a>
                                 </p>
-                                <p>
-                                    <span class="font-medium text-charcoal">Website</span><br>
-                                    ClaimScript.com
-                                </p>
                             </div>
                         </div>
 

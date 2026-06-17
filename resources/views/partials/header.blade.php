@@ -13,8 +13,8 @@
     <div class="container-site">
         <div class="flex items-center justify-between gap-4">
             <a href="{{ route('home') }}" class="relative z-10 flex shrink-0 items-center" aria-label="ClaimScript LLC Home">
-                <img src="{{ asset('images/logo/logo-dark.png') }}" alt="ClaimScript LLC" class="logo-dark h-10 w-auto md:h-11">
-                <img src="{{ asset('images/logo/logo-light.png') }}" alt="ClaimScript LLC" class="logo-light hidden h-10 w-auto md:h-11">
+                <img src="{{ asset('images/logo/logo-header-dark.png') }}" alt="ClaimScript LLC" class="logo-dark h-9 w-auto md:h-10">
+                <img src="{{ asset('images/logo/logo-header-light.png') }}" alt="ClaimScript LLC" class="logo-light hidden h-9 w-auto md:h-10">
             </a>
 
             <nav class="hidden items-center gap-8 lg:flex" aria-label="Main navigation">
@@ -48,7 +48,7 @@
     <div class="absolute inset-0 bg-navy/60 backdrop-blur-sm" data-mobile-close></div>
     <div class="relative ml-auto flex h-full w-full max-w-sm flex-col bg-white shadow-2xl">
         <div class="flex items-center justify-between border-b border-soft-gray p-5">
-            <img src="{{ asset('images/logo/logo-light.png') }}" alt="ClaimScript LLC" class="h-9 w-auto">
+            <img src="{{ asset('images/logo/logo-header-light.png') }}" alt="ClaimScript LLC" class="h-9 w-auto">
             <button type="button" data-mobile-close class="inline-flex h-10 w-10 items-center justify-center rounded-lg text-charcoal hover:bg-off-white" aria-label="Close menu">
                 <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/>
