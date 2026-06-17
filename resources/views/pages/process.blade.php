@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Our Process — ClaimScript LLC')
+@section('title', 'Our Process | ClaimScript LLC')
 @section('meta_description', 'Learn how ClaimScript manages the revenue cycle with structured processes from eligibility verification through reporting and analytics.')
 
 @section('content')
@@ -12,7 +12,7 @@
                     Structured. Transparent. Accountable.
                 </h1>
                 <p class="mt-5 text-base leading-relaxed text-white/75 md:text-lg">
-                    Every step of your revenue cycle follows a defined process — so you always know what happens next and where your revenue stands.
+                    Every step of your revenue cycle follows a defined process so you always know what happens next and where your revenue stands.
                 </p>
             </div>
         </div>

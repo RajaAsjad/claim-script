@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
-@section('title', 'About — ClaimScript LLC')
-@section('meta_description', 'ClaimScript LLC is a modern revenue cycle management partner for outpatient healthcare providers — built on transparency, structure, and dedicated support.')
+@section('title', 'About | ClaimScript LLC')
+@section('meta_description', 'ClaimScript LLC is a modern revenue cycle management partner for outpatient healthcare providers, built on transparency, structure, and dedicated support.')
 
 @section('content')
     <section class="bg-navy pt-28 pb-16 md:pt-36 md:pb-20">
@@ -12,7 +12,7 @@
                     A modern partner for outpatient revenue cycles
                 </h1>
                 <p class="mt-5 text-base leading-relaxed text-white/75 md:text-lg">
-                    ClaimScript was founded on a simple belief: outpatient practices deserve billing operations that are transparent, structured, and responsive — not opaque and impersonal.
+                    ClaimScript was founded on a simple belief: outpatient practices deserve billing operations that are transparent, structured, and responsive. Not opaque and impersonal.
                 </p>
             </div>
         </div>
@@ -24,7 +24,7 @@
                 <div class="reveal">
                     <h2 class="section-title">What we do</h2>
                     <p class="section-subtitle">
-                        ClaimScript provides medical billing and revenue cycle management services for outpatient healthcare providers. We handle the full revenue cycle — from eligibility verification and claim submission to denial management, patient billing, and performance reporting.
+                        ClaimScript provides medical billing and revenue cycle management services for outpatient healthcare providers. We handle the full revenue cycle from eligibility verification and claim submission to denial management, patient billing, and performance reporting.
                     </p>
                     <p class="mt-4 text-sm leading-relaxed text-muted">
                         Our primary outcomes: improved collections, reduced denials, protected cash flow, reduced administrative burden, and complete visibility into the billing process.
@@ -65,7 +65,7 @@
             <div class="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
                 @foreach ([
                     ['Transparency', 'Open reporting and clear communication at every stage.'],
-                    ['Proactive Communication', 'We reach out before issues escalate — not after.'],
+                    ['Proactive Communication', 'We reach out before issues escalate, not after.'],
                     ['Dedicated Support', 'A responsive team focused on your practice.'],
                     ['Structured Processes', 'Defined workflows for accuracy and accountability.'],
                     ['Revenue Optimization', 'Designed to improve collections and protect cash flow.'],
@@ -88,7 +88,7 @@
                 <div class="max-w-2xl">
                     <h2 class="text-2xl font-bold text-white md:text-3xl">Built on expertise, not empty promises</h2>
                     <p class="mt-4 text-sm leading-relaxed text-white/70 md:text-base">
-                        As a new company, we build credibility through our process, transparency, responsiveness, and service structure — not fabricated statistics or testimonials. We believe the best way to earn your trust is to show you exactly how we work and deliver on what we promise.
+                        As a new company, we build credibility through our process, transparency, responsiveness, and service structure. Not fabricated statistics or testimonials. We believe the best way to earn your trust is to show you exactly how we work and deliver on what we promise.
                     </p>
                 </div>
             </div>

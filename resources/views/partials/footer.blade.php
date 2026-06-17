@@ -4,7 +4,7 @@
             <div class="lg:col-span-2">
                 <img src="{{ asset('images/logo/logo-dark.png') }}" alt="ClaimScript LLC" class="mb-5 h-10 w-auto">
                 <p class="max-w-md text-sm leading-relaxed text-white/70">
-                    ClaimScript LLC provides medical billing and revenue cycle management for outpatient healthcare providers — with transparency, structured processes, and dedicated partnership support.
+                    ClaimScript LLC provides medical billing and revenue cycle management for outpatient healthcare providers with transparency, structured processes, and dedicated partnership support.
                 </p>
             </div>
 

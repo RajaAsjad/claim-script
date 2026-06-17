@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'FAQ — ClaimScript LLC')
+@section('title', 'FAQ | ClaimScript LLC')
 @section('meta_description', 'Frequently asked questions about ClaimScript medical billing and revenue cycle management services for outpatient healthcare providers.')
 
 @section('content')
@@ -23,11 +23,11 @@
             <div class="mx-auto max-w-3xl space-y-3">
                 @foreach ([
                     ['What types of practices does ClaimScript serve?', 'We specialize in outpatient healthcare providers, including physical therapy clinics, pain management practices, specialty outpatient groups, and independent medical groups seeking reliable billing operations.'],
-                    ['How is ClaimScript different from other billing companies?', 'We prioritize transparency, proactive communication, dedicated account support, and structured processes. You get full visibility into your revenue cycle — not a black box. We focus on long-term partnership, not transactional service.'],
+                    ['How is ClaimScript different from other billing companies?', 'We prioritize transparency, proactive communication, dedicated account support, and structured processes. You get full visibility into your revenue cycle. Not a black box. We focus on long-term partnership, not transactional service.'],
                     ['Do you help with prior authorizations and eligibility?', 'Yes. Patient eligibility and authorization management is a core part of our service, especially for outpatient and therapy practices. We verify coverage, confirm benefits, manage prior authorizations, track visit limits, and support renewals to help prevent denials before treatment occurs.'],
                     ['Will ClaimScript integrate with our existing EHR?', 'We work to align with your existing clinical and billing workflows. During onboarding, we review your EHR setup, charge capture process, and payer mix to build an integration plan that minimizes disruption.'],
-                    ['How does onboarding work?', 'We start by learning your practice — your providers, payers, workflow, and priorities. From there, we build a tailored operations plan, configure reporting, and transition billing operations with clear communication at every step.'],
-                    ['What reporting will I receive?', 'You receive structured performance summaries covering claim status, denial trends, collection performance, and authorization compliance. Our reporting uses benchmark-oriented language — we do not present fabricated historical performance data.'],
+                    ['How does onboarding work?', 'We start by learning your practice: your providers, payers, workflow, and priorities. From there, we build a tailored operations plan, configure reporting, and transition billing operations with clear communication at every step.'],
+                    ['What reporting will I receive?', 'You receive structured performance summaries covering claim status, denial trends, collection performance, and authorization compliance. Our reporting uses benchmark-oriented language. We do not present fabricated historical performance data.'],
                     ['How do you handle denied claims?', 'Denied claims are identified quickly, analyzed for root cause, and resolved through corrections or structured appeals. We also track denial trends to implement preventive workflow adjustments.'],
                     ['Is ClaimScript HIPAA compliant?', 'We operate with HIPAA-focused security practices. Our website forms are designed for practice inquiries only and do not collect patient health information. Protected health information is handled through secure, compliant channels established during onboarding.'],
                     ['How much does ClaimScript cost?', 'Pricing depends on your practice size, payer mix, and service scope. Schedule a consultation and we will review your needs and provide a transparent proposal.'],

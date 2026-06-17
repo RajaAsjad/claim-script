@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Services — ClaimScript LLC')
+@section('title', 'Services | ClaimScript LLC')
 @section('meta_description', 'Medical billing, revenue cycle management, denial management, patient billing, credentialing, and eligibility services for outpatient healthcare providers.')
 
 @section('content')
@@ -29,7 +29,7 @@
                     ],
                     [
                         'Revenue Cycle Management',
-                        'End-to-end oversight of your revenue cycle — from patient registration through final payment posting and account resolution.',
+                        'End-to-end oversight of your revenue cycle, from patient registration through final payment posting and account resolution.',
                         ['Workflow alignment', 'AR management', 'Payment reconciliation', 'Process accountability'],
                     ],
                     [

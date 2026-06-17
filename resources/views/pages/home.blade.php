@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'ClaimScript LLC — Every Claim, On the Right Script')
+@section('title', 'ClaimScript LLC | Every Claim, On the Right Script')
 
 @section('content')
     {{-- Hero --}}
@@ -18,7 +18,7 @@
                         <span class="text-logo-blue">on the right script.</span>
                     </h1>
                     <p class="mt-6 max-w-xl text-base leading-relaxed text-white/75 md:text-lg">
-                        ClaimScript helps outpatient practices manage the entire revenue cycle — from accurate claim submission to proactive denial resolution — with full transparency and structured reporting.
+                        ClaimScript helps outpatient practices manage the entire revenue cycle from accurate claim submission to proactive denial resolution with full transparency and structured reporting.
                     </p>
                     <div class="mt-8 flex flex-col gap-4 sm:flex-row">
                         <a href="{{ route('contact') }}" class="btn-primary">Schedule a Consultation</a>
@@ -53,7 +53,7 @@
                                          style="height: {{ $h }}%; animation-delay: {{ $i * 0.1 }}s"></div>
                                 @endforeach
                             </div>
-                            <p class="relative mt-4 text-center text-xs text-muted">Capability-focused reporting — not fabricated performance claims</p>
+                            <p class="relative mt-4 text-center text-xs text-muted">Capability-focused reporting. Not fabricated performance claims.</p>
                         </div>
                     </div>
                 </div>
@@ -68,14 +68,14 @@
                 <p class="section-label">Why ClaimScript</p>
                 <h2 class="section-title">Built for practices that expect clarity, not confusion</h2>
                 <p class="section-subtitle mx-auto">
-                    We combine structured billing operations with proactive communication — so you always understand where your revenue stands and what happens next.
+                    We combine structured billing operations with proactive communication so you always understand where your revenue stands and what happens next.
                 </p>
             </div>
 
             <div class="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 @foreach ([
                     ['Transparency', 'Clear reporting, open communication, and full visibility into your revenue cycle at every stage.'],
-                    ['Dedicated Support', 'A responsive account team focused on your practice — not a ticket queue.'],
+                    ['Dedicated Support', 'A responsive account team focused on your practice, not a ticket queue.'],
                     ['Proactive Denial Management', 'We identify and resolve issues before they become costly delays.'],
                     ['Revenue Optimization', 'Structured workflows designed to improve collections and protect cash flow.'],
                     ['EHR Integration', 'Seamless alignment with your existing clinical and billing workflows.'],
@@ -173,7 +173,7 @@
                         Built for outpatient &amp; physical therapy practices
                     </h2>
                     <p class="mt-4 text-base leading-relaxed text-white/70 md:text-lg">
-                        Outpatient and therapy practices face unique authorization challenges. ClaimScript provides dedicated eligibility and authorization management — including visit-limit tracking and renewal support — to help prevent denials before treatment occurs.
+                        Outpatient and therapy practices face unique authorization challenges. ClaimScript provides dedicated eligibility and authorization management, including visit-limit tracking and renewal support, to help prevent denials before treatment occurs.
                     </p>
                 </div>
 
@@ -226,7 +226,7 @@
                                 </div>
                             @endforeach
                         </div>
-                        <p class="mt-5 text-xs text-muted">Illustrative capability benchmarks — not historical company performance data.</p>
+                        <p class="mt-5 text-xs text-muted">Illustrative capability benchmarks. Not historical company performance data.</p>
                     </div>
                 </div>
 
@@ -234,7 +234,7 @@
                     <p class="section-label">Transparency & Reporting</p>
                     <h2 class="section-title">Visibility you can act on</h2>
                     <p class="section-subtitle">
-                        Structured reporting gives you a clear picture of claim status, denial trends, collection performance, and authorization compliance — so you can make informed decisions about your practice.
+                        Structured reporting gives you a clear picture of claim status, denial trends, collection performance, and authorization compliance so you can make informed decisions about your practice.
                     </p>
                     <ul class="mt-6 space-y-3">
                         @foreach ([
@@ -273,7 +273,7 @@
                         <p class="section-label">Security & Compliance</p>
                         <h2 class="mt-2 text-2xl font-bold text-navy md:text-3xl">HIPAA-focused operations you can trust</h2>
                         <p class="mt-3 text-sm leading-relaxed text-muted md:text-base">
-                            ClaimScript is built with healthcare privacy in mind. Our operations follow HIPAA-focused security practices, and our website forms are designed for practice inquiries only — we never request patient health information through this site. Your data and your patients' privacy are treated with the highest care.
+                            ClaimScript is built with healthcare privacy in mind. Our operations follow HIPAA-focused security practices, and our website forms are designed for practice inquiries only. We never request patient health information through this site. Your data and your patients' privacy are treated with the highest care.
                         </p>
                     </div>
                 </div>
@@ -292,7 +292,7 @@
             <div class="mx-auto mt-12 max-w-3xl space-y-3">
                 @foreach ([
                     ['What types of practices does ClaimScript serve?', 'We specialize in outpatient healthcare providers, including physical therapy clinics, pain management practices, specialty outpatient groups, and independent medical groups seeking reliable billing operations.'],
-                    ['How is ClaimScript different from other billing companies?', 'We prioritize transparency, proactive communication, dedicated account support, and structured processes. You get full visibility into your revenue cycle — not a black box.'],
+                    ['How is ClaimScript different from other billing companies?', 'We prioritize transparency, proactive communication, dedicated account support, and structured processes. You get full visibility into your revenue cycle. Not a black box.'],
                     ['Do you help with prior authorizations and eligibility?', 'Yes. Patient eligibility and authorization management is a core part of our service, especially for outpatient and therapy practices. We verify coverage, manage authorizations, track visit limits, and support renewals.'],
                 ] as $i => $faq)
                     <div class="faq-item reveal stagger-{{ $i + 1 }} rounded-2xl border border-soft-gray bg-white">

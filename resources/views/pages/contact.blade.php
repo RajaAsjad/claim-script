@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Contact — ClaimScript LLC')
+@section('title', 'Contact | ClaimScript LLC')
 @section('meta_description', 'Schedule a consultation with ClaimScript LLC. Secure practice inquiry form for outpatient healthcare providers seeking billing and revenue cycle management support.')
 
 @section('content')

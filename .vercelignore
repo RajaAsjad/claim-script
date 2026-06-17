@@ -1,0 +1,16 @@
+/vendor
+/node_modules
+/.git
+/.idea
+/.vscode
+Homestead.json
+Homestead.yaml
+storage/logs/*
+storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/views/*
+database/database.sqlite
+.env
+.env.*
+!.env.example
+ClaimScript_Web_Design_Requirements_Final.docx

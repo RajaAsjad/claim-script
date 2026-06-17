@@ -1,6 +1,6 @@
-# ClaimScript LLC — Website
+# ClaimScript LLC Website
 
-Modern Laravel website for [ClaimScript LLC](https://claimscript.com) — medical billing and revenue cycle management for outpatient healthcare providers.
+Modern Laravel website for [ClaimScript LLC](https://claimscript.com), a medical billing and revenue cycle management provider for outpatient healthcare practices.
 
 ## Tech Stack
 
@@ -77,10 +77,10 @@ Contact form submissions are stored in the `consultations` table. The form inclu
 
 Logo files are located in `public/images/logo/`:
 
-- `logo-dark.png` — for dark/navy backgrounds
-- `logo-light.png` — for light/white backgrounds
-- `logo-icon.png` — icon mark for loader/favicon
+- `logo-dark.png` for dark/navy backgrounds
+- `logo-light.png` for light/white backgrounds
+- `logo-icon.png` for icon mark, loader, and favicon
 
 ## License
 
-Proprietary — ClaimScript LLC
+Proprietary. ClaimScript LLC

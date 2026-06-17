@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="@yield('meta_description', 'ClaimScript LLC — Medical billing and revenue cycle management for outpatient healthcare providers. Transparency, structured processes, and dedicated support.')">
+    <meta name="description" content="@yield('meta_description', 'ClaimScript LLC provides medical billing and revenue cycle management for outpatient healthcare providers. Transparency, structured processes, and dedicated support.')">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('title', 'ClaimScript LLC — Revenue Cycle Management')</title>
+    <title>@yield('title', 'ClaimScript LLC | Revenue Cycle Management')</title>
 
     <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
