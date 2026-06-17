@@ -6,10 +6,10 @@
     {{-- Hero --}}
     <section class="relative overflow-hidden bg-navy pt-28 pb-20 md:pt-36 md:pb-28">
         <canvas id="hero-canvas" class="hero-canvas" aria-hidden="true"></canvas>
-        <div class="absolute inset-0 bg-gradient-to-br from-navy via-navy-light/80 to-navy" aria-hidden="true"></div>
-        <div class="absolute -right-32 top-20 h-96 w-96 rounded-full bg-logo-blue/10 blur-3xl" aria-hidden="true"></div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="hero-glow" aria-hidden="true"></div>
 
-        <div class="container-site relative">
+        <div class="container-site relative z-10">
             <div class="grid items-center gap-12 lg:grid-cols-2">
                 <div class="reveal">
                     <p class="section-label">Revenue Cycle Management Platform</p>
